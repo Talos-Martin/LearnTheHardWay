@@ -21,3 +21,8 @@ print(formater.format(
                         "world"
                     ))
 #ok no newlines, just spaces
+
+
+#little experiment here. was wondering whether it would fail or print 1 2 3 and stop there.
+#It fails
+#print(formater.format(1,2,3))
