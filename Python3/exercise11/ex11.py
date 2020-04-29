@@ -16,3 +16,7 @@ print(f"""So here we have a swallow with a weight of {weight},
 #split with no argument, to separate by space
 age, eight = input("Age and weight please. Separate by space. No Lies!").split()
 print("Age is", age, "and weight is", weight);
+
+#int number = input"Gimme a number") #doesn't work
+number = int(input("Gimme a number! "))
+print("Square is: ", number*number)

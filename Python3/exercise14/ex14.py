@@ -12,7 +12,7 @@ answer=input(prompt)
 print("Here comes the second question?")
 second=input(prompt)
 
-print("And the third question from {script}?")
+print(f"And the third question from {script}?")
 third=input(prompt)
 
 print(f"""Well well well,
