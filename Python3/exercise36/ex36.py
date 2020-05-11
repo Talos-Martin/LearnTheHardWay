@@ -9,7 +9,7 @@ import random
 
 def room_sphinx(name):
     number = random.randrange(1,51)
-    print(f"I am the Sphinx, and you {name} will have to guess the correct number between 1 and 50")
+    print(f"\nI am the Sphinx, and you {name} will have to guess the correct number between 1 and 50")
     print("What is your first pick?")
 
     guess=0
@@ -70,7 +70,7 @@ def room_archive():
 def room_pathways(name):
 
     counter=0
-    print("\n\nThere are three doors in this room, and a guard")                ##why are my newlines not displayed?
+    print("\nThere are three doors in this room, and a guard")                ##why are my newlines not displayed?
     print("Guard: \"Stop where you are or be slain without mercy!\"")
     print("Guard: \"What is your intention? Do you want to cross into one of the adjacent rooms?\"")
 
@@ -86,7 +86,7 @@ def room_pathways(name):
             print("Guard: \"What?? Is it 'yes' or 'no'!?\"")
 
 
-    print("Guard: \"See!? That wasn't so hard\"")
+    print("\nGuard: \"See!? That wasn't so hard\"")
     print("Guard: \"So, is it 'left', 'right' or 'center'?\"")
 
     while(True):
@@ -125,7 +125,7 @@ def room_entrance(name):    #we'll start here
 
 
 def room_chambers(name):    
-    print("You are in someones private chambers. ")
+    print("\nYou are in someones private chambers. ")
     print("By the looks and the smell you guess it belongs to a single older male inhabitant.")
 
     print("There's another door on the other side of the room. It slowly opens...")
@@ -152,7 +152,7 @@ def room_chambers(name):
 
 
     print("\nYou make it out of the maze alive. You are tremendously lucky. The last guy wasn't")
-    print("He was made to guard the maze")
+    print("He was made to guard the maze\n")
 
     exit(0)
 
