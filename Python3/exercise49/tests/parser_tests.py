@@ -1,14 +1,15 @@
 from nose.tools import *
-from ex48 import lexicon
+from ex49 import parser
 
-def test_directions():
-    assert_equal(lexicon.scan("north"), [('direction', 'north')])
-    result = lexicon.scan("north south east")
-    assert_equal(result, [  ('direction', 'north'),
-                            ('direction', 'south'),
-                            ('direction', 'east')
-                        ])
+def test_skip():
+    assert_equal(parser.skip("of","stop"), (None))
+    result = parser.skip("of", "stop")
+#    assert_equal(result, [  ('direction', 'north'),
+ #                           ('direction', 'south'),
+  #                          ('direction', 'east')
+   #                     ])
 
+"""    
 def test_verbs():
     assert_equal(lexicon.scan("go"), [('verb', 'go')])
 
@@ -54,4 +55,4 @@ def test_errors():
                                 ('noun', 'princess')
                             ])
 
-
+"""
